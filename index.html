@@ -3,8 +3,10 @@
         <title>FORM</title>
     </head>
     <body>
-        <h1>PERSONAL DETAILS</h1>
+        <h1>PERSONAL DETAILS FORM</h1>
         <form>
+            <fieldset>
+                <legend>PERSONAL DETAILS</legend>
             <lable>NAME</lable><br>
             <input type="text" id="name"><br>
             <lable>CONTACT</lable><br>
@@ -14,7 +16,15 @@
             <input type="radio" id="male" name="gender" value="female">MALE<br>
             <label>FAVOURITE CITY</label><br>
             <input type="checkbox" id="mumbai"> MUMBAI<br>
-            <input type="checkbox" id="new delhi"> NEW DELHI
+            <input type="checkbox" id="new delhi"> NEW DELHI<br>
+            <label>ENTER MARKS</label><br>
+            <select name="subject" id="subject">
+            <option value="maths">MATHS</option>
+            <option value="science">SCIENCE</option>
+            <option value="sst">SST</option>
+            </select><br>
+            <button>SUMMIT</button>
+        </fieldset>
         </form>
     </body>
 </html>
